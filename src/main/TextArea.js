@@ -1,6 +1,6 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
-import {GenericScrollBox, ScrollAxes} from '../react-scroll-box/src/main';
+import {GenericScrollBox, ScrollAxes} from '../../../react-scroll-box/src/main';
 import {GenericInput} from './GenericInput';
 import PropTypes from 'prop-types';
 
