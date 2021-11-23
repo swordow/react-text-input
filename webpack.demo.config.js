@@ -19,10 +19,8 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/demo/index.html',
-      minify: {collapseWhitespace: true}
-    }),
+    new HtmlWebpackPlugin( {filename: 'index.html',
+      template: 'src/demo/index.html'}),
     new ExtractTextPlugin('[name].css')
   ],
   module: {

@@ -1,9 +1,10 @@
 import React from 'react';
 import {findDOMNode} from 'react-dom';
-import {GenericScrollBox, ScrollAxes} from 'react-scroll-box';
+import {GenericScrollBox, ScrollAxes} from '../react-scroll-box/src/main';
 import {GenericInput} from './GenericInput';
+import PropTypes from 'prop-types';
 
-const {string, bool, any} = React.PropTypes;
+const {string, bool, any} = PropTypes;
 
 export class TextArea extends React.Component {
 
